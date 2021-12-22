@@ -77,6 +77,10 @@ header button {
     font-size: xx-large;
     text-align: center;
 }
+.main__paragraph{
+    font-size: 28px;
+}
+    
 .main__section--img-description:nth-child(even) {
     display: flex;
     justify-content: space-around;
@@ -280,6 +284,9 @@ header button {
     .main__form {
         width: 80%;
     }
+    .main__paragraph{
+    font-size: unset;
+}
 }
 
 @media screen and (max-width: 700px){
@@ -321,5 +328,8 @@ header button {
      .main__img {
          max-width: 100%;
      }
+    .main__paragraph{
+    font-size: unset;
+}
     
 }
